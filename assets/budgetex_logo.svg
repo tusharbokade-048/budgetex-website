@@ -1,0 +1,64 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#42A5F5"/>
+<stop offset="55%" stop-color="#2196F3"/>
+<stop offset="100%" stop-color="#1976D2"/>
+</linearGradient>
+<linearGradient id="coinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFD54F"/>
+<stop offset="100%" stop-color="#F9A825"/>
+</linearGradient>
+<linearGradient id="greenGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#66BB6A"/>
+<stop offset="100%" stop-color="#2E7D32"/>
+</linearGradient>
+<linearGradient id="greenFill" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#66BB6A" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#66BB6A" stop-opacity="0.05"/>
+</linearGradient>
+<clipPath id="iconClip">
+<rect x="0" y="0" width="512" height="512" rx="112" ry="112"/>
+</clipPath>
+</defs>
+
+<rect x="0" y="0" width="512" height="512" rx="112" ry="112" fill="url(#bgGrad)"/>
+
+<g clip-path="url(#iconClip)">
+<circle cx="90" cy="80" r="240" fill="#ffffff" opacity="0.10"/>
+<circle cx="510" cy="525" r="280" fill="#0D47A1" opacity="0.18"/>
+</g>
+
+<g stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" clip-path="url(#iconClip)">
+<line x1="50" y1="400" x2="480" y2="400"/>
+<line x1="50" y1="335" x2="480" y2="335"/>
+<line x1="50" y1="270" x2="480" y2="270"/>
+</g>
+
+<g clip-path="url(#iconClip)">
+<path d="M 60 410 L 130 370 L 205 325 L 280 270 L 355 210 L 430 145 L 430 460 L 60 460 Z" fill="url(#greenFill)"/>
+</g>
+
+<polyline points="60,410 130,370 205,325 280,270 355,210 430,145" fill="none" stroke="url(#greenGrad)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+<circle cx="60" cy="410" r="7" fill="#ffffff" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="130" cy="370" r="7" fill="#ffffff" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="205" cy="325" r="7" fill="#ffffff" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="280" cy="270" r="7" fill="#ffffff" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="355" cy="210" r="7" fill="#ffffff" stroke="#2E7D32" stroke-width="4"/>
+
+<polygon points="430,145 408,154 418,172" fill="#2E7D32"/>
+<path d="M 415 165 L 430 145 L 442 162" fill="none" stroke="#2E7D32" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect x="85" y="100" width="50" height="320" rx="12" fill="#ffffff"/>
+
+<path d="M 135 100 H 250 a 82 82 0 0 1 82 82 v 14 a 82 82 0 0 1 -82 82 H 135 Z" fill="#ffffff"/>
+<path d="M 165 138 H 244 a 44 44 0 0 1 44 44 v 10 a 44 44 0 0 1 -44 44 H 165 Z" fill="#2196F3"/>
+
+<path d="M 135 244 H 264 a 92 92 0 0 1 92 92 v 16 a 92 92 0 0 1 -92 92 H 135 Z" fill="#ffffff"/>
+<path d="M 165 282 H 258 a 54 54 0 0 1 54 54 v 10 a 54 54 0 0 1 -54 54 H 165 Z" fill="#2196F3"/>
+
+<circle cx="395" cy="395" r="62" fill="url(#coinGrad)" stroke="#0D47A1" stroke-width="5"/>
+<circle cx="395" cy="395" r="51" fill="none" stroke="#E65100" stroke-width="2" stroke-dasharray="3 5" opacity="0.6"/>
+<text x="395" y="416" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" fill="#0D47A1">₹</text>
+</svg>
